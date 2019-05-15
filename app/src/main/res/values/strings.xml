@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Svoboda</string>
+    <string name="title_activity_google_map">Map</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_test">Map</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_instant_tracker_activity">InstantTrackerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_open_camera">Take Picture</string>
+    <string name="string_validate_picture">Send</string>
+    <string name="string_save_picture">Save to Gallery</string>
+    <string name="string_next">Next</string>
+    <string name="string_gallery">Gallery</string>
+    <string name="verifying">Verifying, please wait...</string>
+    <string name="congratulations">Congratulations, you have discovered</string>
+    <string name="map">Map</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="failure">Unknown location</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="empty_string"></string>
+    <string name="app_key">8jAU8nI0QZHkEdhVuqWMk76sTRbTxH5QNlPLqjNgl4g=</string>
+    <string name="show_description">SHOW DESCRIPTION</string>
+    <string name="hide_description">HIDE DESCRIPTION</string>
+    <string name="description">Description</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cameraLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/cameraImageView"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/statusDialog"
+        android:background="@drawable/verifying_layout"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        android:alpha="0.5"
+        android:visibility="gone"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/verifyStatus"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            >
+            <ProgressBar
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/progressSpinner"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:alpha="1"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/success"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:alpha="1"
+                android:background="@drawable/ic_check_x"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/fail"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:alpha="1"
+                android:background="@drawable/ic_close_red_x"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/verifyStatusText"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/verifyStatus"
+            >
+
+            <TextView
+                android:id="@+id/verifyingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/verifying"
+                android:textColor="@color/White"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:alpha="1"/>
+
+            <TextView
+                android:id="@+id/successText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/congratulations"
+                android:textColor="@color/GreenYellow"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:breakStrategy="balanced"
+                android:textAlignment="center"
+                android:alpha="1"/>
+
+            <TextView
+                android:id="@+id/failText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/failure"
+                android:textColor="@color/Red"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:alpha="1"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
